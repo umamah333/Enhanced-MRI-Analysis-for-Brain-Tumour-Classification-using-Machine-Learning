@@ -1,0 +1,2 @@
+# Enhanced-MRI-Analysis-for-Brain-Tumour-Classification-using-Machine-Learning
+This repository hosts the code and resources for a project focused on MRI analysis for the classification of brain tumours using machine learning techniques. Leveraging a dataset of MRI images of brain tumors, this project aims to develop and implement advanced algorithms to accurately classify different types of brain tumours
