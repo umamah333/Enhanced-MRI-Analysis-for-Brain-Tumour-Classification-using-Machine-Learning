@@ -57,15 +57,15 @@ Metrics: ['accuracy']
 Description: The metric used to evaluate the model.
 Training Parameters:
 
-Epochs: 10 (initially; suggested to increase for better performance)
+Epochs: 20 (initially; suggested to increase for better performance)
 Description: The number of times the entire dataset is passed through the model.
 Batch Size: 32
 Description: The number of samples per gradient update.
 Hyperparameters for SVM
 Kernel:
 
-Value: 'rbf' (Radial Basis Function)
-Description: The kernel type used in the SVM model. The RBF kernel is chosen for its ability to handle non-linear data.
+Value: 'linear' 
+Description: The kernel type used in the SVM model. The linear kernel is chosen for its simplicity.
 StandardScaler:
 
 Description: Standardizes features by removing the mean and scaling to unit variance. This is part of the SVM pipeline to normalize the features.
